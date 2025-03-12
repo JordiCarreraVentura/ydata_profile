@@ -9,7 +9,7 @@ $ streamlit run src/ydata_profile/streamlit_app.py
 
 ## Instructions for building the package
 
-#### Update dependencies
+#### Update dependencies
 
 If any dependencies are required, edit the `pyproject.toml` file, `[project]` field, and add a `dependencies` key with a `List[str]` value, where each string is a `pip`-readable dependency.
 
@@ -22,7 +22,7 @@ If any dependencies are required, edit the `pyproject.toml` file, `[project]` fi
 
    `$ python -m twine upload --repository pypi dist/LAST_VERSION`
 
-#### Test
+#### Test
 
 3. Install the package from pypi
     `python -m pip install --index-url https://pypi.org`
