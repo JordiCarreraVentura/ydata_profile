@@ -1,5 +1,14 @@
-# virtual environment
+# Virtual environment
 bin/*
 etc/*
 lib/*
 pyvenv.cfg
+share/*
+
+# MacOS system files
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
+# Images
+images/*
