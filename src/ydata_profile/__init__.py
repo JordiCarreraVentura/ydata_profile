@@ -1,6 +1,9 @@
+import os
+from midir import midir
+
 def run_ydata_profile():
-    import os
-    path_file = os.path.realpath(__file__)
-    folder_file = os.path.dirname(path_file)
-    os.chdir(folder_file)
-    os.system("streamlit run streamlit_app.py")
+    cmd = (
+        "python -m streamlit run "
+        f"'{midir()}/streamlit_app.py'"
+    )
+    os.system(cmd)
